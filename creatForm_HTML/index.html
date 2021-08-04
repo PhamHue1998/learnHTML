@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TaoFormCB</title>
+  </head>
+  <body>
+    <table with="100%" border="0" align="center" cellspacing="0" cellpadding="0">
+      <tr>
+        <td colspan="3" align="center">
+          <h1>Pete's Pizza Delivery</h1>
+        </td>
+      </tr>
+      <tr align="center">
+        <td colspan="3">
+          <h2>Online Order Form</h2>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3" align="center">
+          <h4>*required fields</h4>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3" width="1024px">
+          <form action="">
+            <fieldset>
+              <legend>Customer details</legend>
+              <table cellpadding="2" cellspacing="0">
+                <tr>
+                  <td><label for="name">*Name:</label></td>
+                  <td><input type="text" id="name" name="name" size="50px" /></td>
+                </tr>
+
+                <tr>
+                  <td><label for="address">*Address:</label></td>
+                  <td><input type="text" id="address" name="address" size="80px" /></td>
+                </tr>
+
+                <tr>
+                  <td><label for="city">*Town/city:</label></td>
+                  <td><input type="text" id="city" name="city" size="25px" /></td>
+                </tr>
+
+                <tr>
+                  <td><label for="postcode">*Postcode:</label></td>
+                  <td><input type="text" id="postcode" name="postcode" size="10px" /></td>
+                </tr>
+
+                <tr>
+                  <td><label for="tel">*Tel:</label></td>
+                  <td><input type="tel" id="tel" name="tel" /></td>
+                </tr>
+
+                <tr>
+                  <td><label for="email">*Email:</label></td>
+                  <td><input type="email" id="email" name="email" size="80px" /></td>
+                </tr>
+              </table>
+            </fieldset>
+            <br />
+          </form>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <fieldset>
+            <legend>Topping*</legend>
+            <form>
+              <input type="radio" id="margherita" name="topping" value="margherita" />
+              <label for="margherita">Margherita</label><br />
+              <input type="radio" id="fourSeasons" name="topping" value="fourSeasons" />
+              <label for="fourSeasons">Four Seasons</label><br />
+              <input type="radio" id="meat" name="topping" value="meat" />
+              <label for="meat">Meat Feast</label><br /><br />
+            </form>
+          </fieldset>
+        </td>
+        <td>
+          <fieldset>
+            <legend>Size*</legend>
+            <form>
+              <input type="radio" id="small" name="size" value="small" />
+              <label for="small">Small</label><br />
+              <input type="radio" id="medium" name="size" value="medium" />
+              <label for="medium">Medium</label><br />
+              <input type="radio" id="large" name="size" value="large" />
+              <label for="small">large</label><br /><br />
+            </form>
+          </fieldset>
+        </td>
+        <td>
+          <fieldset>
+            <legend>Extras</legend>
+            <form>
+              <input type="checkbox" id="food1" name="food1" value="Mushrooms" />
+              <label for="food1"> Mushrooms</label><br />
+              <input type="checkbox" id="food2" name="food2" value="Green peppers" />
+              <label for="food2"> Green peppers</label><br />
+              <input type="checkbox" id="food3" name="food3" value="Anchovies" />
+              <label for="food3"> Anchovies</label><br />
+              <input type="checkbox" id="food4" name="food4" value="Extra cheese" />
+              <label for="food4"> Extra cheese</label>
+            </form>
+          </fieldset>
+        </td>
+      </tr>
+
+      <tr height="320">
+        <td colspan="3">
+          <fieldset>
+            <legend>Delivery</legend>
+            <br />
+            <label for="dateTime">Preferred delivery time: </label>
+            <input type="time" id="dateTime" name="time" /><br /><br />
+            <label>Delivery instructions: </label><br /><br />
+            <textarea rows="10" cols="120"></textarea>
+          </fieldset>
+        </td>
+      </tr>
+      <tr height="100">
+        <td colspan="3" align="center">
+          <button type="button">Submit other</button>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
